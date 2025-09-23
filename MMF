@@ -8,6 +8,9 @@ namu.wiki##div[class][id]:empty
 ! 구글 AI 개요를 차단합니다
 google.com##.hdzaWe
 
+! 유튜브의 광고를 차단합니다
+youtube.com#@##player-ads
+
 ! 광고 차단 필터
 ||dctrend.ai/widget/
 ||inmobi.com^$third-party
