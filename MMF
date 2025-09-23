@@ -4,11 +4,25 @@
 
 ! 나무위키 파워링크의 빈 공간을 제거합니다
 namu.wiki##div[class][id]:empty
+
 ! 구글 AI 개요를 차단합니다
 google.com##.hdzaWe
+
 ! 광고 차단 필터
+||dctrend.ai/widget/
 ||inmobi.com^$third-party
+
 ! 방해요소 차단 필터
+dcinside.com##.dc_all
+dcinside.com##.dcmedia.content_box
+dcinside.com##.view-btm-con
+dcinside.com##.vote.trend
+dcinside.com###dna_content
+gall.dcinside.com##.clear.gnb_list > li:nth-of-type(6)
+gall.dcinside.com##.clear.gnb_list > li:nth-of-type(7)
+gall.dcinside.com##.gall_list tr[class='ub-content ']
+gall.dcinside.com##.list_trend
+gall.dcinside.com##.r_dcmedia
 inven.co.kr##.inven-float-alarm
 inven.co.kr##.inven-games.menuGroup
 inven.co.kr##.sc-banner
@@ -17,16 +31,19 @@ inven.co.kr###invenAppSuggestion
 inven.co.kr###topLinkBanner
 kio.ac###bits-87
 kio.ac###bits-88
+m.dcinside.com#@#.trend-rank
 m.dcinside.com##.dna-group.grid
 m.dcinside.com##.layer-bottom-popup
 m.dcinside.com##.media-group.grid
 m.dcinside.com##.outside-search-box
 m.dcinside.com##.trend-rank:style(padding:0px!important; border-top:0px!important;)
 m.dcinside.com##.trend.cont
+m.dcinside.com##[href="javascript:go_statistics('log_gnb','https://dctrend.ai/news/trend', 'DT');"]
 m.dcinside.com###notice_list > li
-m.dcinside.com##div.brick-wid > section.grid:nth-of-type(4)
-m.dcinside.com##div.brick-wid > section.grid:nth-of-type(6)
-m.dcinside.com##div.brick-wid > section.grid:nth-of-type(7)
+m.dcinside.com##section.grid > .md-tit-box:has-text(Daum)
+m.dcinside.com##section.grid:has(.news-schthum-lst)
+m.dcinside.com##ul[style] li.swiper-slide:nth-of-type(5)
+m.dcinside.com#$##notice_list > li:has(.ct):not(:has(.ntc-line-pink.round)) { display: table !important; }
 niji-gazo.com###gallery-ad-block-a
 niji-gazo.com###gallery-ad-block-b
 quasarzone.com##.best-official-news
@@ -35,5 +52,8 @@ quasarzone.com##div:nth-of-type(1) > div.shop-list-container:nth-of-type(2)
 quasarzone.com##div.info-body > div.new-partner-saleinfo-horizontal-wrapper:nth-of-type(2)
 quasarzone.com##div.info-body > div.new-partner-saleinfo-horizontal-wrapper:nth-of-type(3)
 quasarzone.com##div.list-area > div:nth-of-type(1) > ul:nth-of-type(1)
+search.dcinside.com##.news_result
+search.dcinside.com##.right_content
+
 ! 기타 유용한 필터
 dmm.co.jp##+js(trusted-set-cookie, 'ckcy_remedied_check', 'ec_mrnhbtk', 1year, '/', domain, '.dmm.co.jp')
