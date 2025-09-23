@@ -1,11 +1,17 @@
 ! Title: Misaka Mikoto Filter
-! Expires: 1 days
 ! Description: 미사카 미코토 사랑해 태어나줘서 고마워
 ! Homepage: https://github.com/mikotolover/MyAdguardFilter/blob/main/MMF
 
-namu.wiki###z3h7HkTg2
+! 나무위키 파워링크의 빈 공간을 제거합니다
+namu.wiki##div[class][id]:empty
+! 구글 AI 개요를 차단합니다
 google.com##.hdzaWe
-niji-gazo.com###gallery-ad-block-b
-niji-gazo.com###gallery-ad-block-a
+! 광고 차단 필터
 ||inmobi.com^$third-party
+! 컨테츠 차단 필터
+kio.ac###bits-87
+kio.ac###bits-88
+niji-gazo.com###gallery-ad-block-a
+niji-gazo.com###gallery-ad-block-b
+! 기타 유용한 필터
 dmm.co.jp##+js(trusted-set-cookie, 'ckcy_remedied_check', 'ec_mrnhbtk', 1year, '/', domain, '.dmm.co.jp')
