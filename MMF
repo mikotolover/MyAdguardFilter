@@ -8,10 +8,32 @@ namu.wiki##div[class][id]:empty
 google.com##.hdzaWe
 ! 광고 차단 필터
 ||inmobi.com^$third-party
-! 컨테츠 차단 필터
+! 방해요소 차단 필터
+inven.co.kr##.inven-float-alarm
+inven.co.kr##.inven-games.menuGroup
+inven.co.kr##.sc-banner
+inven.co.kr##.show-ads
+inven.co.kr###invenAppSuggestion
+inven.co.kr###topLinkBanner
 kio.ac###bits-87
 kio.ac###bits-88
+m.dcinside.com##.dna-group.grid
+m.dcinside.com##.layer-bottom-popup
+m.dcinside.com##.media-group.grid
+m.dcinside.com##.outside-search-box
+m.dcinside.com##.trend-rank:style(padding:0px!important; border-top:0px!important;)
+m.dcinside.com##.trend.cont
+m.dcinside.com###notice_list > li
+m.dcinside.com##div.brick-wid > section.grid:nth-of-type(4)
+m.dcinside.com##div.brick-wid > section.grid:nth-of-type(6)
+m.dcinside.com##div.brick-wid > section.grid:nth-of-type(7)
 niji-gazo.com###gallery-ad-block-a
 niji-gazo.com###gallery-ad-block-b
+quasarzone.com##.best-official-news
+quasarzone.com##.new-official-news
+quasarzone.com##div:nth-of-type(1) > div.shop-list-container:nth-of-type(2)
+quasarzone.com##div.info-body > div.new-partner-saleinfo-horizontal-wrapper:nth-of-type(2)
+quasarzone.com##div.info-body > div.new-partner-saleinfo-horizontal-wrapper:nth-of-type(3)
+quasarzone.com##div.list-area > div:nth-of-type(1) > ul:nth-of-type(1)
 ! 기타 유용한 필터
 dmm.co.jp##+js(trusted-set-cookie, 'ckcy_remedied_check', 'ec_mrnhbtk', 1year, '/', domain, '.dmm.co.jp')
