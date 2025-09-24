@@ -8,14 +8,13 @@ namu.wiki##div[class][id]:empty
 ! 구글 AI 개요를 차단합니다
 google.com##.hdzaWe
 
-! 유튜브의 광고를 차단합니다
-youtube.com#@##player-ads
-
 ! 광고 차단 필터
 ||dctrend.ai/widget/
 ||inmobi.com^$third-party
 
 ! 방해요소 차단 필터
+chatgpt.com##div.relative.flex:nth-of-type(2) > div.absolute.bottom-full
+chatgpt.com##div.text-token-text-secondary.relative:nth-of-type(4) > span.text-sm.leading-none
 dcinside.com##.dc_all
 dcinside.com##.dcmedia.content_box
 dcinside.com##.view-btm-con
