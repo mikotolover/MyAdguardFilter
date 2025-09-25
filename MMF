@@ -8,19 +8,23 @@ namu.wiki##div[class][id]:empty
 ! 구글 AI 개요를 차단합니다
 google.com##.hdzaWe
 
+! 구글 홈페이지에서 음성 검색과 구글 렌즈 버튼을 제거합니다
+google.com###Q7Ulpb
+google.com##div.RcQUac
+
 ! 구글 검색 카테고리에서 AI 모드를 제거합니다
-www.google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(1) > div > div > a.XVMlrc > div.mXwfNd
+google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(1) > div > div > a.XVMlrc > div.mXwfNd
 
 ! 구글 검색 카테고리를 간소화합니다
-www.google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(5)
-www.google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(7)
-www.google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(8)
-www.google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(9)
-www.google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(10)
-www.google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(11)
-www.google.com##div.yeKjxb:nth-of-type(2) > a > div.mXwfNd
-www.google.com##div.yeKjxb:nth-of-type(2) > div.fJLuUb:nth-of-type(1)
-www.google.com##div.yeKjxb:nth-of-type(2) > div.fJLuUb:nth-of-type(3)
+google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(5)
+google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(7)
+google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(8)
+google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(9)
+google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(10)
+google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(11)
+google.com##div.yeKjxb:nth-of-type(2) > a > div.mXwfNd
+google.com##div.yeKjxb:nth-of-type(2) > div.fJLuUb:nth-of-type(1)
+google.com##div.yeKjxb:nth-of-type(2) > div.fJLuUb:nth-of-type(3)
 
 ! 광고 차단 필터
 ||dctrend.ai/widget/
@@ -39,6 +43,7 @@ gall.dcinside.com##.clear.gnb_list > li:nth-of-type(7)
 gall.dcinside.com##.gall_list tr[class='ub-content ']
 gall.dcinside.com##.list_trend
 gall.dcinside.com##.r_dcmedia
+google.com###belowsb
 inven.co.kr##.inven-float-alarm
 inven.co.kr##.inven-games.menuGroup
 inven.co.kr##.sc-banner
