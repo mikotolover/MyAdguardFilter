@@ -46,6 +46,9 @@ m.dcinside.com##section.grid > .md-tit-box:has-text(Daum)
 m.dcinside.com##section.grid:has(.news-schthum-lst)
 m.dcinside.com##ul[style] li.swiper-slide:nth-of-type(5)
 m.dcinside.com#$##notice_list > li:has(.ct):not(:has(.ntc-line-pink.round)) { display: table !important; }
+m.fmkorea.com##.bd_mobile.bd:matches-css(margin: /3px 0px/):matches-css(padding: 0px):remove()
+m.fmkorea.com##script ~ div[class*=' ']:matches-css(margin: /3px 0px/):matches-css(padding: 0px):remove()
+m.fmkorea.com#%#//scriptlet('set-constant', '_make_power_link_identifier', 'noopFunc')
 manatoki468.net###hd_pops_2
 niji-gazo.com###gallery-ad-block-a
 niji-gazo.com###gallery-ad-block-b
@@ -60,7 +63,3 @@ search.dcinside.com##.right_content
 
 ! 기타 유용한 필터
 dmm.co.jp##+js(trusted-set-cookie, 'ckcy_remedied_check', 'ec_mrnhbtk', 1year, '/', domain, '.dmm.co.jp')
-
-! 유저스크립트 최적화
-@@.$extension="NamuLink",domain=~namu.wiki|naver.com
-@@.$extension="Namu Hot Now",domain=~namu.wiki|arca.live
