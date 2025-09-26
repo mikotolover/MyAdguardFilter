@@ -16,6 +16,13 @@ google.com##button:has-text(AI 모드)
 
 ! 구글 검색 카테고리를 간소화합니다
 google.com##.mXwfNd:has-text(AI 모드)
+google.com##.mXwfNd:has-text(쇼핑)
+google.com##.mXwfNd:has-text(짧은 동영상)
+google.com##.mXwfNd:has-text(더보기)
+google.com##.mXwfNd:has-text(도서)
+google.com##.mXwfNd:has-text(웹)
+google.com##.mXwfNd:has-text(지도)
+google.com##.mXwfNd:has-text(금융)
 google.com##.rK4Qmc
 
 ! 광고 차단 필터
