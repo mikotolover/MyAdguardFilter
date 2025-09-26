@@ -9,6 +9,7 @@ namu.wiki##div[class][id]:empty
 google.com##.hdzaWe
 
 ! 구글 홈페이지에서 음성 검색, 구글 렌즈 버튼, AI 모드 버튼을 제거합니다
+google.com##[aria-label="음성 검색"]
 google.com##button:has(svg[aria-label="음성 검색"])
 google.com##[aria-label="이미지로 검색"]
 google.com#$#a[aria-label="카메라 또는 사진을 사용해 검색하세요"] { display: none !important; }
