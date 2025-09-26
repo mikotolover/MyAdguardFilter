@@ -23,7 +23,9 @@ google.com##.mXwfNd:has-text(도서)
 google.com##.mXwfNd:has-text(웹)
 google.com##.mXwfNd:has-text(지도)
 google.com##.mXwfNd:has-text(금융)
+google.com##.mXwfNd:has-text(의견)
 google.com##.rK4Qmc
+google.com##.fJLuUb
 
 ! 광고 차단 필터
 ||dctrend.ai/widget/
