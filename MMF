@@ -9,21 +9,21 @@ namu.wiki##div[class][id]:empty
 google.com##.hdzaWe
 
 ! 구글 홈페이지에서 음성 검색, 구글 렌즈 버튼, AI 모드 버튼을 제거합니다
-google.com##[aria-label="음성 검색"]
+google.com##button:has(svg[aria-label="음성 검색"])
 google.com##[aria-label="이미지로 검색"]
 google.com#$#a[aria-label="카메라 또는 사진을 사용해 검색하세요"] { display: none !important; }
 google.com##button:has-text(AI 모드)
 
 ! 구글 검색 카테고리를 간소화합니다
-google.com#$#.mXwfNd:has-text(AI 모드) { display: none !important; }
-google.com#$#.mXwfNd:has-text(쇼핑) { display: none !important; }
-google.com#$#.mXwfNd:has-text(짧은 동영상) { display: none !important; }
-google.com#$#.mXwfNd:has-text(더보기) { display: none !important; }
-google.com#$#.mXwfNd:has-text(도서) { display: none !important; }
-google.com#$#.mXwfNd:has-text(웹) { display: none !important; }
-google.com#$#.mXwfNd:has-text(지도) { display: none !important; }
-google.com#$#.mXwfNd:has-text(금융) { display: none !important; }
-google.com#$#.mXwfNd:has-text(의견) { display: none !important; }
+google.com##.mXwfNd:has-text(AI 모드)
+google.com##.mXwfNd:has-text(쇼핑)
+google.com##.mXwfNd:has-text(짧은 동영상)
+google.com##.mXwfNd:has-text(더보기)
+google.com##.mXwfNd:has-text(도서)
+google.com##.mXwfNd:has-text(웹)
+google.com##.mXwfNd:has-text(지도)
+google.com##.mXwfNd:has-text(금융)
+google.com##.mXwfNd:has-text(의견)
 google.com##.rK4Qmc
 google.com##.fJLuUb
 
