@@ -8,41 +8,28 @@ namu.wiki##div[class][id]:empty
 ! 구글 AI 개요를 차단합니다
 google.com##.hdzaWe
 
-! 구글 홈페이지에서 음성 검색과 구글 렌즈 버튼을 제거합니다
-google.com###Q7Ulpb
-google.com##div.RcQUac
-google.com##div.dRYYxd:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2)
-google.com##div:nth-of-type(2) > div.nDcEnd:nth-of-type(3)
-google.com##div.dRYYxd:nth-of-type(3) > button
-
-! 구글 검색 카테고리에서 AI 모드를 제거합니다
-google.com##div > a.XVMlrc
-google.com##div.sqbTcd.caNvfd:nth-of-type(4) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)
+! 구글 홈페이지에서 음성 검색, 구글 렌즈 버튼, AI 모드 버튼을 제거합니다
+google.com##[aria-label="음성 검색"]
+google.com##[aria-label="이미지로 검색"]
 
 ! 구글 검색 카테고리를 간소화합니다
-google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(5)
-google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(7)
-google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(8)
-google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(9)
-google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(10)
-google.com##div.YkNJDb > div.YkNJDb:nth-of-type(1) > div:nth-of-type(11)
-google.com##div.yeKjxb:nth-of-type(2) > a > div.mXwfNd
-google.com##div.yeKjxb:nth-of-type(2) > div.fJLuUb:nth-of-type(1)
-google.com##div.yeKjxb:nth-of-type(2) > div.fJLuUb:nth-of-type(3)
-google.com##div.EDblX.JpOecb > div > div:nth-of-type(1) > div:nth-of-type(5)
-google.com##div.EDblX.JpOecb > div > div:nth-of-type(1) > div:nth-of-type(7)
-google.com##div.EDblX.JpOecb > div > div:nth-of-type(1) > div:nth-of-type(8)
-google.com##div.EDblX.JpOecb > div > div:nth-of-type(1) > div:nth-of-type(9)
-google.com##div.EDblX.JpOecb > div > div:nth-of-type(1) > div:nth-of-type(10)
-google.com##div.EDblX.JpOecb > div > div:nth-of-type(1) > div:nth-of-type(11)
+google.com##button:has-text(AI 모드)
+google.com##.mXwfNd:has-text(AI 모드)
+google.com##.mXwfNd:has-text(쇼핑)
+google.com##.mXwfNd:has-text(짧은 동영상)
+google.com##.mXwfNd:has-text(더보기)
+google.com##.mXwfNd:has-text(도서)
+google.com##.mXwfNd:has-text(웹)
+google.com##.mXwfNd:has-text(지도)
+google.com##.mXwfNd:has-text(금융)
+google.com##.XPuBac:has(#promo_label_id)
+
 
 ! 광고 차단 필터
 ||dctrend.ai/widget/
 ||inmobi.com^$third-party
 
 ! 방해요소 차단 필터
-chatgpt.com##div.relative.flex:nth-of-type(2) > div.absolute.bottom-full
-chatgpt.com##div.text-token-text-secondary.relative:nth-of-type(4) > span.text-sm.leading-none
 dcinside.com##.dc_all
 dcinside.com##.dcmedia.content_box
 dcinside.com##.view-btm-con
@@ -83,10 +70,6 @@ niji-gazo.com###gallery-ad-block-a
 niji-gazo.com###gallery-ad-block-b
 quasarzone.com##.best-official-news
 quasarzone.com##.new-official-news
-quasarzone.com##div:nth-of-type(1) > div.shop-list-container:nth-of-type(2)
-quasarzone.com##div.info-body > div.new-partner-saleinfo-horizontal-wrapper:nth-of-type(2)
-quasarzone.com##div.info-body > div.new-partner-saleinfo-horizontal-wrapper:nth-of-type(3)
-quasarzone.com##div.list-area > div:nth-of-type(1) > ul:nth-of-type(1)
 search.dcinside.com##.news_result
 search.dcinside.com##.right_content
 
