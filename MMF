@@ -2,9 +2,6 @@
 ! Description: 미사카 미코토 사랑해 태어나줘서 고마워
 ! Homepage: https://github.com/mikotolover/MyAdguardFilter/blob/main/MMF
 
-! 나무위키 파워링크의 빈 공간을 제거합니다
-namu.wiki##div[class][id]:empty
-
 ! 유튜브의 광고를 차단합니다
 youtube.com#@##player-ads
 
