@@ -2,8 +2,8 @@
 ! Description: 미사카 미코토 사랑해 태어나줘서 고마워
 ! Homepage: https://github.com/mikotolover/MyAdguardFilter/blob/main/MMF
 
-! 유튜브의 광고를 차단합니다
-youtube.com#@##player-ads
+! 구글 AI 개요를 차단합니다
+google.com##.hdzaWe
 
 ! 광고 차단 필터
 ||dctrend.ai/widget/
