@@ -5,29 +5,6 @@
 ! 유튜브의 광고를 차단합니다
 youtube.com#@##player-ads
 
-! 구글 AI 개요를 차단합니다
-google.com##.hdzaWe
-
-! 구글 홈페이지에서 음성 검색, 구글 렌즈 버튼, AI 모드 버튼을 제거합니다
-google.com##[aria-label="음성 검색"]
-google.com##button:has(svg[aria-label="음성 검색"])
-google.com##[aria-label="이미지로 검색"]
-google.com#$#a[aria-label="카메라 또는 사진을 사용해 검색하세요"] { display: none !important; }
-google.com##button:has-text(AI 모드)
-
-! 구글 검색 카테고리를 간소화합니다
-google.com##.mXwfNd:has-text(AI 모드)
-google.com##.mXwfNd:has-text(쇼핑)
-google.com##.mXwfNd:has-text(짧은 동영상)
-google.com##.mXwfNd:has-text(더보기)
-google.com##.mXwfNd:has-text(도서)
-google.com##.mXwfNd:has-text(웹)
-google.com##.mXwfNd:has-text(지도)
-google.com##.mXwfNd:has-text(금융)
-google.com##.mXwfNd:has-text(의견)
-google.com##.rK4Qmc
-google.com##.fJLuUb
-
 ! 광고 차단 필터
 ||dctrend.ai/widget/
 ||inmobi.com^$third-party
