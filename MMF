@@ -12,6 +12,19 @@ google.com##[aria-label="이미지로 검색"]
 google.com#$#a[aria-label="카메라 또는 사진을 사용해 검색하세요"] { display: none !important; }
 google.com##button:has-text(AI 모드)
 
+! 구글 검색 카테고리를 간소화합니다
+google.com##.mXwfNd:has(a[href*="tbm=shop"])
+google.com##.mXwfNd:has(a[href*="tbm=bks"])
+google.com##.mXwfNd:has(a[href*="udm=14"])
+google.com##.mXwfNd:has(a[href*="maps.google.com"])
+google.com##.mXwfNd:has(a[href*="tbm=fin"])
+google.com##.mXwfNd:has(a[href*="udm=39"])
+google.com##.mXwfNd:has(a[href*="udm=50"])
+google.com##.rK4Qmc
+google.com##.fJLuUb
+google.com##.mXwfNd:has-text(더보기)
+google.com##.mXwfNd:has-text(의견)
+
 ! 광고 차단 필터
 ||dctrend.ai/widget/
 ||inmobi.com^$third-party
