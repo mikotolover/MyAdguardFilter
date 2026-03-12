@@ -61,6 +61,7 @@ quasarzone.com##.best-official-news
 quasarzone.com##.new-official-news
 search.dcinside.com##.news_result
 search.dcinside.com##.right_content
+namu.wiki#$#div[class][id]:empty { display: none !important; }
 
 ! 기타 유용한 필터
 dmm.co.jp##+js(trusted-set-cookie, 'ckcy_remedied_check', 'ec_mrnhbtk', 1year, '/', domain, '.dmm.co.jp')
