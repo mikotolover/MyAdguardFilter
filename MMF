@@ -68,6 +68,7 @@ m.fmkorea.com##.bd_mobile.bd:matches-css(margin: /3px 0px/):matches-css(padding:
 m.fmkorea.com##script ~ div[class*=' ']:matches-css(margin: /3px 0px/):matches-css(padding: 0px):remove()
 m.fmkorea.com#%#//scriptlet('set-constant', '_make_power_link_identifier', 'noopFunc')
 manatoki468.net###hd_pops_2
+namu.wiki##div:has(img[data-doc]:not([data-doc^="/"])):not(:has(h2)):not(:has(a[href*="#fn"])):not(:has(a[href*="#rfn"])):not(:has(a[href^="/w/"]))
 niji-gazo.com###gallery-ad-block-a
 niji-gazo.com###gallery-ad-block-b
 quasarzone.com##.best-official-news
