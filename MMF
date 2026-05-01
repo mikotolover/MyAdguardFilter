@@ -67,7 +67,7 @@ m.dcinside.com#$##notice_list > li:has(.ct):not(:has(.ntc-line-pink.round)) { di
 m.fmkorea.com##.bd_mobile.bd:matches-css(margin: /3px 0px/):matches-css(padding: 0px):remove()
 m.fmkorea.com##script ~ div[class*=' ']:matches-css(margin: /3px 0px/):matches-css(padding: 0px):remove()
 m.fmkorea.com#%#//scriptlet('set-constant', '_make_power_link_identifier', 'noopFunc')
-manatoki468.net###hd_pops_2
+ntk01.com##.popup-overlay
 namu.wiki##div:has(img[data-doc]:not([data-doc^="/"])):not(:has(h2)):not(:has(a[href*="#fn"])):not(:has(a[href*="#rfn"])):not(:has(a[href^="/w/"]))
 niji-gazo.com###gallery-ad-block-a
 niji-gazo.com###gallery-ad-block-b
@@ -79,3 +79,4 @@ namu.wiki#$#div[class][id]:empty { display: none !important; }
 
 ! 기타 유용한 필터
 dmm.co.jp##+js(trusted-set-cookie, 'ckcy_remedied_check', 'ec_mrnhbtk', 1year, '/', domain, '.dmm.co.jp')
+google.com##.BToiNc:has(a[href*=".hu/"],a[href*=".tw/"],a[href*=".it/"],a[href*=".pt/"])
