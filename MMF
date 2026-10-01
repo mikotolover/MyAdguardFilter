@@ -72,5 +72,6 @@ search.dcinside.com##.news_result
 search.dcinside.com##.right_content
 sbxh9.com##div[data-pm-ov="1"]
 sbxh9.com##.vw-tapzone
+namu.wiki##div:has(img[data-doc]:not([data-doc^="/"])):not(:has(h2)):not(:has(a[href*="#fn"])):not(:has(a[ href*="#rfn"])):not(:has(a[href^="/w/"]))
 
 ! 기타 유용한 필터
